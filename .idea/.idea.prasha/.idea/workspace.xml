@@ -5,212 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/Bug.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/Bug.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/prashaExport.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/prashaExport.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Textures/Park Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Music/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinValidator.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/manifest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/manifest.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config/AutomationConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config/AutomationConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config/GlobalValidationConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config/GlobalValidationConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config/RuleConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Config/RuleConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Profiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Profiles/Main Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Validator/Editor/Profiles/Main Profile.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Bug.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Bug.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/prashaExport.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/prashaExport.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Bench.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Bench.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Bench.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Bench.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/BigPlant_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/BigPlant_02.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/BigPlant_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/BigPlant_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Bush.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Bush.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Bush.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Bush.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox/CubeMap.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox/CubeMap/Sky_LowPoly_01_Day_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox/CubeMap/Sky_LowPoly_01_Day_a.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox/CubeMap.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox/CubeMap/Sky_LowPoly_01_Day_a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox/CubeMap/Sky_LowPoly_01_Day_a.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox/Panoramic.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox/Panoramic/Sky_LowPoly_01_Day_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox/Panoramic/Sky_LowPoly_01_Day_a.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Free Stylized Skybox/Panoramic.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox/Panoramic/Sky_LowPoly_01_Day_a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Free Stylized Skybox/Panoramic/Sky_LowPoly_01_Day_a.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/ReadMe.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Free Stylized Skybox/Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Gazebo.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Gazebo.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Gazebo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Gazebo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Grass_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Grass_01.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Grass_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Grass_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Hill_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Hill_01.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Hill_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Hill_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Birch_Tree_05.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Birch_Tree_05.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Birch_Tree_05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Birch_Tree_05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Birch_Tree_06.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Birch_Tree_06.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Birch_Tree_06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Birch_Tree_06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Daffodil_03.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Daffodil_03.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Daffodil_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Daffodil_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Hyacinth_04.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Hyacinth_04.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Hyacinth_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Hyacinth_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Sunflower_04.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Sunflower_04.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Sunflower_04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Sunflower_04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Tree_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Tree_02.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/PP_Tree_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/PP_Tree_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials/Grass.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Grass.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials/Low_Poly_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials/Low_Poly_Mat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials/Low_Poly_Mat_Variant1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat_Variant1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Materials/Low_Poly_Mat_Variant1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat_Variant1.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Bench.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Bench.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Bench.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Bench.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Bush.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Bush.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Bush.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Bush.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Cloud.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Cloud.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Cloud.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Cloud.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Flower Box.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Flower Box.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Flower Box.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Flower Box.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Flower_1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Flower_1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Flower_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Flower_1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Flower_2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Flower_2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Flower_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Flower_2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Gazebo.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Gazebo.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Gazebo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Gazebo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Grass_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Grass_01.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Grass_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Grass_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Hill_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Hill_01.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Hill_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Hill_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Lantern.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Lantern.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Lantern.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Lantern.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_Bank.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_Bank.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_Bank.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_Bank.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_Corner_Variant2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_Corner_Variant2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_Corner_Variant2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_Corner_Variant2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_EdgePiece2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_EdgePiece2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_EdgePiece2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_EdgePiece2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_Straight_Variant2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_Straight_Variant2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_Straight_Variant2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_Straight_Variant2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_TPart.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_TPart.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Stone_Path_TPart.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Stone_Path_TPart.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Tree1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Tree1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Tree1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Tree1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Tree2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Tree2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Models/Tree2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Park Assets/Tree2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/LowPolyTexture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Park Assets/LowPolyTexture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/LowPolyTexture.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Park Assets/LowPolyTexture.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/LowPolyTexture_Variant1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Park Assets/LowPolyTexture_Variant1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/LowPolyTexture_Variant1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Park Assets/LowPolyTexture_Variant1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/Materials/LowPolyTexture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/LowPolyTexture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/Materials/LowPolyTexture.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/LowPolyTexture.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/Materials/LowPolyTexture_Variant1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/LowPolyTexture_Variant1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/Park Assets/Texture/Materials/LowPolyTexture_Variant1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/LowPolyTexture_Variant1.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/RockFormation_06.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/RockFormation_06.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/RockFormation_06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/RockFormation_06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/SmalRoots_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/SmalRoots_01.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/SmalRoots_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/SmalRoots_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/castle_F.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/castle_F.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/castle_F.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/castle_F.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/cliff_blockDiagonal_stone.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/cliff_blockDiagonal_stone.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/cliff_blockDiagonal_stone.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/cliff_blockDiagonal_stone.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/cliff_blockHalf_rock.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/cliff_blockHalf_rock.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/cliff_blockHalf_rock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/cliff_blockHalf_rock.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/cliff_steps_rock.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/cliff_steps_rock.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/cliff_steps_rock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/cliff_steps_rock.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/fountainblend.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/fountainblend.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/fountainblend.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/fountainblend.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/hanging_moss.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/hanging_moss.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/hanging_moss.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/hanging_moss.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/log_large.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/log_large.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/log_large.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/log_large.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/modular_demo.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/modular_demo.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/modular_demo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/modular_demo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/plant_bushLarge.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/plant_bushLarge.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/plant_bushLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/plant_bushLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/plant_bushTriangle.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/plant_bushTriangle.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/plant_bushTriangle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/plant_bushTriangle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/rock_largeA.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/rock_largeA.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/rock_largeA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/rock_largeA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/rock_tallB.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/rock_tallB.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/rock_tallB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/rock_tallB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/rock_tallC.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/rock_tallC.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/rock_tallC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/rock_tallC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_blocks_dark.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_blocks_dark.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_blocks_dark.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_blocks_dark.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_cone.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_cone.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_cone.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_cone.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_default.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_default.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_default.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_default.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_fat.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_fat.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_fat.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_fat.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_oak.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_oak.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_oak.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_oak.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_pineTallA.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_pineTallA.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment Assets/tree_pineTallA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/tree_pineTallA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BushPink.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/BushPink.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BushPink.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/BushPink.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CastleWalls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/CastleWalls.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CastleWalls.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/CastleWalls.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Colors3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Colors3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Colors3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Colors3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Colors5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Colors5.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Colors5.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Colors5.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CourtyardGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/CourtyardGround.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CourtyardGround.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/CourtyardGround.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FoliageGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/FoliageGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FoliageGreen.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/FoliageGreen.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FountainColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/FountainColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/FountainColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/FountainColour.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GateColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GateColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GateColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GateColour.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GazeboColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GazeboColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GazeboColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GazeboColour.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GrassGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GrassGreen.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GrassGreen.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GroundBrown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GroundBrown.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GroundBrown.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/GroundBrown.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/InfectedWaterColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/InfectedWaterColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/InfectedWaterColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/InfectedWaterColour.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PP_Color_Palette.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/PP_Color_Palette.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PP_Color_Palette.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/PP_Color_Palette.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Colors3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Colors3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Colors3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Colors3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Materials/castle_diff.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/castle_diff.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Materials/castle_diff.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/castle_diff.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/PP_Color_Palette.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/PP_Color_Palette.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/PP_Color_Palette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/PP_Color_Palette.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/castle_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/castle_diff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/castle_diff.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/castle_diff.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TreeBarkColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/TreeBarkColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TreeBarkColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/TreeBarkColour.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TreeColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/TreeColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TreeColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/TreeColour.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/WaterColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/WaterColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/WaterColour.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/WaterColour.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat_Variant1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Park Assets/Low_Poly_Mat_Variant1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/TestingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/TestingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +58,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/9d/1cb54cf8/Ray.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/f0/5deb0f83/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87f070167a7643108cc61ef0492f958c1fe00/2b/4432c548/PhysicsScene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87f070167a7643108cc61ef0492f958c1fe00/d4/2e808754/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87f070167a7643108cc61ef0492f958c1fe00/e3/08e3fd1b/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87f070167a7643108cc61ef0492f958c1fe00/fb/98dbaf50/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2023_GD3_IntroToUnity/Assets/GD/Examples/9. Events - Pickups &amp; CharacterController/Scripts/Player/SimpleThirdPersonController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -237,30 +86,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;player&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\AmyMi\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\AmyMi\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
@@ -317,7 +166,11 @@
       <updated>1700436493524</updated>
       <workItem from="1700436502497" duration="2716000" />
       <workItem from="1700652607517" duration="308000" />
-      <workItem from="1700652932117" duration="1977000" />
+      <workItem from="1700652932117" duration="4822000" />
+      <workItem from="1700658736365" duration="303000" />
+      <workItem from="1700659983088" duration="1027000" />
+      <workItem from="1700730661341" duration="5198000" />
+      <workItem from="1700735937399" duration="673000" />
     </task>
     <servers />
   </component>
@@ -341,5 +194,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
