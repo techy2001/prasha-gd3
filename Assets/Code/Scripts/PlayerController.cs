@@ -13,7 +13,6 @@ namespace Code.Scripts {
 		[SerializeField] [Range(0f, 10f)] private float weight = 0.12f;
 		[SerializeField] [Range(0f, 64f)] private float jumpPower = 20f;
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
-		[SerializeField] private GameObject cameraTarget;
 		private CharacterController characterController;
 		private Vector3 inputDirection;
 		private Vector3 velocity;
@@ -49,13 +48,10 @@ namespace Code.Scripts {
 			this.velocity.z = Mathf.MoveTowards(this.velocity.z, grounded ? desiredVelocity.z : this.velocity.z + desiredVelocity.z, (grounded ? this.accelerationGround : this.accelerationAir) * Time.deltaTime);
 
 			this.characterController.Move(this.velocity * Time.deltaTime);
-			if (Physics.Raycast(new Ray(this.transform.localPosition, Vector3.down), out var groundPoint, 1.2f) && this.velocity.y < 0) {
-				this.characterController.Move(groundPoint.point - this.transform.localPosition + Vector3.up * 1.0f);
+			if (Physics.Raycast(new Ray(this.transform.position, Vector3.down), out var groundPoint, 1.2f) && this.velocity.y < 0) {
+				this.characterController.Move(groundPoint.point - this.transform.position + Vector3.up * 1.0f);
 			}
 			
-			this.virtualCamera.transform.localPosition = Vector3.Lerp(this.virtualCamera.transform.localPosition, this.cameraTarget.transform.localPosition, 0.1f);
-			this.virtualCamera.transform.localRotation = Quaternion.Lerp(this.virtualCamera.transform.localRotation, this.cameraTarget.transform.localRotation, 0.1f);
-
 			var flatVelocity = this.velocity;
 			flatVelocity.y = 0;
 			if (flatVelocity.magnitude > 0.1f) {
