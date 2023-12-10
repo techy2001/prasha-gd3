@@ -9,6 +9,7 @@ namespace Code.Scripts.Entities {
 		private void OnTriggerEnter(Collider other) {
 			if (other.gameObject == PlayerController.Instance.gameObject) {
 				
+				AudioSource.PlayClipAtPoint(itemDataBehaviour.ItemData.PickupClip, other.gameObject.transform.position);
 				this.gameObject.SetActive(false);
 			}
 		}
