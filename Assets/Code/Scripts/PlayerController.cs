@@ -4,6 +4,7 @@ using UnityEngine;
 namespace Code.Scripts {
 	[RequireComponent(typeof(CharacterController))]
 	public class PlayerController : MonoBehaviour {
+		public static PlayerController Instance { get; private set; }
 		[SerializeField] [Range(0f, 100f)] private float maxSpeedGround = 16f;
 		[SerializeField] [Range(0f, 100f)] private float maxSpeedAir = 4f;
 		[SerializeField] [Range(0f, 1f)] private float velocityPreservationGround = 0.1f;
@@ -21,6 +22,7 @@ namespace Code.Scripts {
 
 		private void Awake() {
 			this.characterController = this.GetComponent<CharacterController>();
+			Instance = this;
 		}
 
 		private void Update() {
