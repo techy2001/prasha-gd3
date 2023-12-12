@@ -14,11 +14,13 @@ namespace Code.Scripts {
 		[SerializeField] [Range(0f, 64f)] private float jumpPower = 20f;
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
 		[SerializeField] private GameObject cameraTarget;
+		[SerializeField] private AnimationController AnimationController;
 		private CharacterController characterController;
 		private Vector3 inputDirection;
 		private Vector3 velocity;
 		private bool jumpHeld;
 		private bool wasJumpHeld;
+		private bool isGrounded;
 
 		private void Awake() {
 			this.characterController = this.GetComponent<CharacterController>();
@@ -64,6 +66,11 @@ namespace Code.Scripts {
 			}
 
 			this.wasJumpHeld = this.jumpHeld;
+			
+			AnimationController.SetVelocity(this.velocity);
+			AnimationController.SetGrounded(grounded);
+			AnimationController.SetJumpHeld(this.jumpHeld);
+			AnimationController.SetWasJumpHeld(this.wasJumpHeld);
 		}
 	}
 }
