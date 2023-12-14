@@ -4,34 +4,54 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private float  maxHealth;
+    [SerializeField] private float maxHealth;
     private float currentHealth;
+    public HealthBar healthBar;
     public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetSliderMax(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if()
-        //{
-        //    TakeDamage(10f);
-        //}
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            TakeDamage(10f);
+        }
     }
 
-    void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        healthBar.SetSlider(currentHealth);
+
         if (currentHealth <= 0)
         {
             //they die
+
             //play death animation
             anim.SetBool("isDead", true);
-            //game over screen
 
+            //game over screen
         }
+
+
     }
+
+    public void Heal(float amount)
+    {
+        currentHealth += amount;
+        healthBar.SetSlider(currentHealth);
+    }
+
+   
 }
+
+   
+
+   
+
