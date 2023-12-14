@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Balltex
-    second: {fileID: 2100000, guid: 1c7909a22488cb546aafd5699869f80d, type: 2}
+    second: {fileID: 2100000, guid: 64e6d16dbdda23e4da7e1ff83c03719f, type: 2}
   materials:
     materialImportMode: 1
     materialName: 2
