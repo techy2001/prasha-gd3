@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
             //they die
 
             //play death animation
-            anim.SetBool("isDead", true);
+            //anim.SetBool("isDead", true);
 
             //game over screen
         }
