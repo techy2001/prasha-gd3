@@ -22,7 +22,7 @@ namespace Code.Scripts.Entities {
 
 		private void FixedUpdate() {
 			this.age++;
-			if (this.age > 6000) {
+			if (this.age > 1600) {
 				this.discard();
 			}
 		}

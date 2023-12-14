@@ -17,8 +17,8 @@ namespace Code.Scripts.Player {
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
 		private CharacterController characterController { get; set; }
 		public PlayerHealth playerHealth { get; private set; }
+		public Vector3 velocity;
 		private Vector3 inputDirection;
-		private Vector3 velocity;
 		private bool jumpHeld;
 		private bool wasJumpHeld;
 
@@ -54,8 +54,9 @@ namespace Code.Scripts.Player {
 			this.velocity.z = Mathf.MoveTowards(this.velocity.z, grounded ? desiredVelocity.z : this.velocity.z + desiredVelocity.z, (grounded ? this.accelerationGround : this.accelerationAir) * Time.deltaTime);
 
 			this.characterController.Move(this.velocity * Time.deltaTime);
-			if (Physics.Raycast(new Ray(this.transform.position, Vector3.down), out var groundPoint, 1.2f) && this.velocity.y < 0) {
+			if (Physics.Raycast(new Ray(this.transform.position, Vector3.down), out var groundPoint, 1.2f) && grounded) {
 				this.characterController.Move(groundPoint.point - this.transform.position + Vector3.up * 1.0f);
+				this.velocity.y = 0;
 			}
 			
 			var flatVelocity = this.velocity;

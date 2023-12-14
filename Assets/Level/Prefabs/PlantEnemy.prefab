@@ -100,7 +100,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -120,5 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc47bcb2c0c4f44b39239ac6d748d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSound: {fileID: 8300000, guid: 620c620f45dbab744a1ff6c8aa7f9f97, type: 3}
   fireCooldown: 20
-  BulletPrefab: {fileID: 0}
+  BulletPrefab: {fileID: 251039388230331321, guid: 3550b4155911b8c43af19334e4449195,
+    type: 3}

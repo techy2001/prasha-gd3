@@ -17,9 +17,7 @@ namespace Code.Scripts.Player {
 		}
 
 		public void TakeDamage(float damage) {
-			print(this.currentHealth);
 			this.currentHealth = MathHelper.clamp(this.currentHealth - damage, 0, this.maxHealth);
-			print(this.currentHealth);
 			if (this.healthBar != null) healthBar.SetSlider(currentHealth);
 			if (currentHealth == 0) {
 				//they die
@@ -30,9 +28,7 @@ namespace Code.Scripts.Player {
 		}
 
 		public void Heal(float amount) {
-			print(this.currentHealth);
 			this.currentHealth = MathHelper.clamp(this.currentHealth + amount, 0, this.maxHealth);
-			print(this.currentHealth);
 			if (this.healthBar != null) healthBar.SetSlider(currentHealth);
 		}
 	}
