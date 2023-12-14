@@ -1,10 +1,11 @@
 using Cinemachine;
+using Code.Scripts.Managers;
 using UnityEngine;
 
-namespace Code.Scripts {
+namespace Code.Scripts.Player {
 	[RequireComponent(typeof(CharacterController))]
 	public class PlayerController : MonoBehaviour {
-		public static PlayerController Instance { get; private set; }
+		private GameController gameController;
 		[SerializeField] [Range(0f, 100f)] private float maxSpeedGround = 16f;
 		[SerializeField] [Range(0f, 100f)] private float maxSpeedAir = 4f;
 		[SerializeField] [Range(0f, 1f)] private float velocityPreservationGround = 0.1f;
@@ -14,7 +15,8 @@ namespace Code.Scripts {
 		[SerializeField] [Range(0f, 10f)] private float weight = 0.12f;
 		[SerializeField] [Range(0f, 64f)] private float jumpPower = 20f;
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
-		private CharacterController characterController;
+		private CharacterController characterController { get; set; }
+		public PlayerHealth playerHealth { get; private set; }
 		private Vector3 inputDirection;
 		private Vector3 velocity;
 		private bool jumpHeld;
@@ -22,7 +24,9 @@ namespace Code.Scripts {
 
 		private void Awake() {
 			this.characterController = this.GetComponent<CharacterController>();
-			Instance = this;
+			this.playerHealth = this.GetComponent<PlayerHealth>();
+			this.gameController = FindObjectOfType<GameController>();
+			this.gameController.player = this;
 		}
 
 		private void Update() {

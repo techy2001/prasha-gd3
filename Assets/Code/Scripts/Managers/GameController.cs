@@ -1,18 +1,24 @@
-﻿using System;
+﻿using Code.Scripts.Events;
+using Code.Scripts.Player;
 using UnityEngine;
 
 namespace Code.Scripts.Managers {
 	public class GameController : MonoBehaviour {
-		//public static GameController Instance;
-		// Prefabs
-		//[SerializeField] private GameObject playerPrefab;
-		//[SerializeField] public PlayerController instance { get; private set; }
-		//[SerializeField] public Transform playerSpawnPosition { get; private set; }
+		public PlayerController player;
+		public OnPickupGained pickupGainedEvent { get; private set; }
 		
-		//private void Awake() {
-			//Instance = this;
-			//this.instance.transform.position = this.playerSpawnPosition.position;
-			//this.instance = Instantiate(this.playerPrefab).GetComponent<PlayerController>();
-		//}
+		private void Awake() {
+			this.pickupGainedEvent = ScriptableObject.CreateInstance<OnPickupGained>();
+			this.pickupGainedEvent.RegisterListener(static (controller, type) => {
+				switch (type) {
+					case "Heal":
+						controller.playerHealth.Heal(1);
+						return;
+					case "PlantBullet":
+						controller.playerHealth.TakeDamage(1);
+						return;
+				}
+			});
+		}
 	}
 }

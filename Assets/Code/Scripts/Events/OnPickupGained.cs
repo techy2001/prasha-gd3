@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
-using Code.Scripts.Util;
+using Code.Scripts.Player;
 using UnityEngine;
 
 namespace Code.Scripts.Events {
 	public class OnPickupGained : ScriptableObject {
 		private readonly List<PickupGainedListener> listeners = new List<PickupGainedListener>();
 
-		public void Raise(PlayerController player, PickupType type) {
+		public void Raise(PlayerController player, string type) {
 			foreach (var listener in this.listeners) {
 				listener.Invoke(player, type);
 			}
@@ -25,5 +25,5 @@ namespace Code.Scripts.Events {
 		}
 	}
 	
-	public delegate void PickupGainedListener(PlayerController player, PickupType type);
+	public delegate void PickupGainedListener(PlayerController player, string type);
 }

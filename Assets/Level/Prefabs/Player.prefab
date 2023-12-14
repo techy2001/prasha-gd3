@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 2316099243191101028}
   - component: {fileID: 4266701113264244756}
   - component: {fileID: 8735253963560437175}
+  - component: {fileID: 2420754054845217394}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -396,7 +397,6 @@ MonoBehaviour:
   weight: 0.11
   jumpPower: 20
   virtualCamera: {fileID: 1558700583207000788}
-  cameraTarget: {fileID: 122978831959070729}
 --- !u!143 &8735253963560437175
 CharacterController:
   m_ObjectHideFlags: 0
@@ -423,6 +423,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2420754054845217394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6789107967951830239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e511c4fa6c89f5c47a082d3eaba6a077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  healthBar: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &6941567703934839647
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,8 +463,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6941567703934839647}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15722533, y: -0.1887852, z: 0.030635612, w: 0.9688663}
-  m_LocalPosition: {x: 1.8973686, y: 3, z: -5.692099}
+  m_LocalRotation: {x: 0.15722623, y: -0.18875697, z: 0.03063104, w: 0.9688718}
+  m_LocalPosition: {x: 1.8973684, y: 3, z: -5.692099}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantBulletEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantBulletEntity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/HealthPickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/HealthPickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/PlantBullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/PlantBullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/PlantEnemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/PlantEnemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/BugEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/BugEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/BugEnemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/BugEnemy.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PickupEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PickupEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameEventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameEventManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Events/OnPickupGained.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Events/OnPickupGained.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/HealthBar.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/HealthBar.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/PlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/PlayerHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/PlayerHealth.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Util/MathHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Util/MathHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Util/PickupType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Util/PickupType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prasha.sln.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Prasha.sln.DotSettings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +48,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/0a/dd92d9fd/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/4e/4e70092f/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../2023_GD3_IntroToUnity/Assets/GD/Examples/9. Events - Pickups &amp; CharacterController/Scripts/Player/SimpleThirdPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Entities/BugEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Player/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,31 +72,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "player",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;player&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\AmyMi\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\AmyMi\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
@@ -128,6 +161,9 @@
       <workItem from="1700817753492" duration="2073000" />
       <workItem from="1701888730263" duration="3102000" />
       <workItem from="1702241656122" duration="4480000" />
+      <workItem from="1702573963820" duration="2248000" />
+      <workItem from="1702578012731" duration="1156000" />
+      <workItem from="1702579197103" duration="1416000" />
     </task>
     <servers />
   </component>
