@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantBulletEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantBulletEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/PlantEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/PlantEnemy.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +131,7 @@
       <workItem from="1702241656122" duration="4480000" />
       <workItem from="1702573963820" duration="2248000" />
       <workItem from="1702578012731" duration="1156000" />
-      <workItem from="1702579197103" duration="4678000" />
+      <workItem from="1702579197103" duration="5220000" />
     </task>
     <servers />
   </component>
