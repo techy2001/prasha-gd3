@@ -12,14 +12,14 @@ namespace Code.Scripts.Player {
 		public Animator anim;
 
 		private void Start() {
-			currentHealth = maxHealth;
-			if (this.healthBar != null) healthBar.SetSliderMax(maxHealth);
+			this.currentHealth = this.maxHealth;
+			if (this.healthBar != null) this.healthBar.SetSliderMax(this.maxHealth);
 		}
 
 		public void TakeDamage(float damage) {
 			this.currentHealth = MathHelper.clamp(this.currentHealth - damage, 0, this.maxHealth);
-			if (this.healthBar != null) healthBar.SetSlider(currentHealth);
-			if (currentHealth == 0) {
+			if (this.healthBar != null) this.healthBar.SetSlider(this.currentHealth);
+			if (this.currentHealth == 0) {
 				//they die
 				//play death animation
 				//anim.SetBool("isDead", true);
@@ -29,7 +29,7 @@ namespace Code.Scripts.Player {
 
 		public void Heal(float amount) {
 			this.currentHealth = MathHelper.clamp(this.currentHealth + amount, 0, this.maxHealth);
-			if (this.healthBar != null) healthBar.SetSlider(currentHealth);
+			if (this.healthBar != null) this.healthBar.SetSlider(this.currentHealth);
 		}
 	}
 }

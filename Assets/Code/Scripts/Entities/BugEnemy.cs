@@ -3,21 +3,16 @@ using System.Collections.Generic;
 using Code.Scripts.Player;
 using UnityEngine;
 
-public class BugEnemy : MonoBehaviour
-{
+public class BugEnemy : MonoBehaviour {
     public float damage;
-    // Start is called before the first frame update
-    void Start()
-    {
+    
+    void Start() {
         
     }
-
     
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            other.GetComponent<PlayerHealth>().TakeDamage(damage);
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Player")) {
+            other.GetComponent<PlayerHealth>().TakeDamage(this.damage);
         }
     }
 }
