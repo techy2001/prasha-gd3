@@ -15,12 +15,15 @@ namespace Code.Scripts.Player {
 		[SerializeField] [Range(0f, 10f)] private float weight = 0.12f;
 		[SerializeField] [Range(0f, 64f)] private float jumpPower = 20f;
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
+		[SerializeField] private GameObject cameraTarget;
+		[SerializeField] private AnimationController AnimationController;
 		private CharacterController characterController { get; set; }
 		public PlayerHealth playerHealth { get; private set; }
 		public Vector3 velocity;
 		private Vector3 inputDirection;
 		private bool jumpHeld;
 		private bool wasJumpHeld;
+		private bool isGrounded;
 
 		private void Awake() {
 			this.characterController = this.GetComponent<CharacterController>();
@@ -67,6 +70,11 @@ namespace Code.Scripts.Player {
 			}
 
 			this.wasJumpHeld = this.jumpHeld;
+
+			this.AnimationController.SetVelocity(this.velocity);
+			this.AnimationController.SetGrounded(grounded);
+			this.AnimationController.SetJumpHeld(this.jumpHeld);
+			this.AnimationController.SetWasJumpHeld(this.wasJumpHeld);
 		}
 	}
 }
