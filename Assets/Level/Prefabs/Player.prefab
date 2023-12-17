@@ -388,15 +388,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73ce3a0829c5b64280ad0584a1a37ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeedGround: 16
-  maxSpeedAir: 4
-  velocityPreservationGround: 0.1
-  velocityPreservationAir: 0.98
-  accelerationGround: 480
-  accelerationAir: 20
-  weight: 0.11
-  jumpPower: 20
+  playerData: {fileID: 11400000, guid: beb3b023ba30008499a388993d160086, type: 2}
+  soundData: {fileID: 11400000, guid: 0ec958219ea2db742adc37de5621bb8b, type: 2}
   virtualCamera: {fileID: 1558700583207000788}
+  cameraTarget: {fileID: 0}
+  AnimationController: {fileID: 0}
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!143 &8735253963560437175
 CharacterController:
   m_ObjectHideFlags: 0
@@ -436,6 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  currentHealth: 0
   healthBar: {fileID: 0}
   anim: {fileID: 0}
 --- !u!1 &6941567703934839647
@@ -463,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6941567703934839647}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15722623, y: -0.18875697, z: 0.03063104, w: 0.9688718}
+  m_LocalRotation: {x: 0.15722653, y: -0.18874761, z: 0.030629525, w: 0.96887356}
   m_LocalPosition: {x: 1.8973684, y: 3, z: -5.692099}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

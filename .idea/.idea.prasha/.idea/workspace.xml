@@ -5,12 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/VineEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/VineEntity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Scenes/FountainLevel 1_Profiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/Materials/Ball 2-Balltex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/Materials/Balltex.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Materials/headMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Textures/prashaTextures/headTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/enemystomp1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/enemystomp1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/enemystomp2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/enemystomp2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/healthpickup.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/healthpickup.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/landing.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/landing.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/playerdamaged.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/playerdamaged.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/playerjump.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound/playerjump.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/Pickups.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/Pickups/HealthPickupData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/Pickups/HealthPickupData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/Pickups/OrbPickupData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/Pickups/OrbPickupData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/PlayerData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/PlayerData/BasePlayerData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/PlayerData/BasePlayerData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/PlayerSounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/PlayerSounds/BasePlayerSoundData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/Instances/PlayerSounds/BasePlayerSoundData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/PickupData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/PickupData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/PlayerData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/PlayerData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/PlayerSoundData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Data/PlayerSoundData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/SceneTransition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Util/AudioHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Util/AudioHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Lighting.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/crystalballcolect.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound/crystalballcolect.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/grass1.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound/grass1.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/grass2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound/grass2.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/jumpwoosh.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound/jumpwoosh.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/playergrunt1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/playergrunt1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/playergrunt2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/playergrunt2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/stomp.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/stomp.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/stomp1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/stomp1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/stomp2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/stomp2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/watersplash.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound/watersplash.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound/woodcreak.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound/woodcreak.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PickupEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PickupEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantBulletEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantBulletEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/HealthPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/HealthPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/FountainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/FountainLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +84,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/4e/4e70092f/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/e7/b35f0f48/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87f070167a7643108cc61ef0492f958c1fe00/ae/1b21b973/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/974dfea2b0344965ae82decbbad6014010000/8e/c1a7277f/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../2023_GD3_IntroToUnity/Assets/GD/Examples/9. Events - Pickups &amp; CharacterController/Scripts/Player/SimpleThirdPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Entities/BugEnemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Player/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,7 +114,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "player",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -141,7 +201,7 @@
       <workItem from="1702579197103" duration="5220000" />
       <workItem from="1702749153443" duration="1109000" />
       <workItem from="1702833547970" duration="319000" />
-      <workItem from="1702834262571" duration="1595000" />
+      <workItem from="1702834262571" duration="5927000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,6 @@
-﻿using Code.Scripts.Managers;
+﻿using System;
+using Code.Scripts.Managers;
+using Code.Scripts.Util;
 using UnityEngine;
 
 namespace Code.Scripts.Entities {
@@ -30,7 +32,15 @@ namespace Code.Scripts.Entities {
 		private void OnTriggerEnter(Collider other) {
 			if (other.gameObject == this.gameController.player.gameObject) {
 				this.gameController.pickupGainedEvent.Raise(this.gameController.player, this.pickupType);
-				AudioSource.PlayClipAtPoint(this.pickupSound, other.gameObject.transform.position);
+				AudioHelper.PlayNullableClip(this.pickupSound, other.gameObject.transform.position);
+				this.discard();
+			} else {
+				this.discard();
+			}
+		}
+
+		private void OnCollisionEnter(Collision other) {
+			if (other.gameObject != this.gameController.player.gameObject) {
 				this.discard();
 			}
 		}
