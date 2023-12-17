@@ -14,6 +14,9 @@ namespace Code.Scripts.Managers {
 					case "Heal":
 						controller.playerHealth.Heal(1);
 						return;
+					case "Orb":
+						// ORB CODE
+						return;
 					case "PlantBullet":
 						controller.playerHealth.TakeDamage(1);
 						return;

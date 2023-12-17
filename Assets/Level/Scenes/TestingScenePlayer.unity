@@ -186,6 +186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlantEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4498892019084192868, guid: 33591f234c8fadb49a079a75502895c8,
+        type: 3}
+      propertyPath: connectedVine
+      value: 
+      objectReference: {fileID: 2107878056}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -280,22 +285,22 @@ PrefabInstance:
     - target: {fileID: 424626581861301287, guid: e2c284a26d6e7cd418d73fc3c5279815,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9840288
+      value: 0.98402804
       objectReference: {fileID: 0}
     - target: {fileID: 424626581861301287, guid: e2c284a26d6e7cd418d73fc3c5279815,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.15968591
+      value: 0.15968578
       objectReference: {fileID: 0}
     - target: {fileID: 424626581861301287, guid: e2c284a26d6e7cd418d73fc3c5279815,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0776467
+      value: 0.0776562
       objectReference: {fileID: 0}
     - target: {fileID: 424626581861301287, guid: e2c284a26d6e7cd418d73fc3c5279815,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.012600326
+      value: -0.012601867
       objectReference: {fileID: 0}
     - target: {fileID: 5329888473007750773, guid: e2c284a26d6e7cd418d73fc3c5279815,
         type: 3}
@@ -708,7 +713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791618163}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15968591, y: 0.0776467, z: -0.012600326, w: 0.9840288}
+  m_LocalRotation: {x: 0.15968578, y: 0.0776562, z: -0.012601867, w: 0.98402804}
   m_LocalPosition: {x: -11.268375, y: 3, z: -6.4588537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -890,6 +895,7 @@ GameObject:
   - component: {fileID: 2107878054}
   - component: {fileID: 2107878053}
   - component: {fileID: 2107878052}
+  - component: {fileID: 2107878056}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -983,6 +989,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2107878056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107878051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47158825064546099bbc5614c34ae414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9027128404384271900
 PrefabInstance:
   m_ObjectHideFlags: 0

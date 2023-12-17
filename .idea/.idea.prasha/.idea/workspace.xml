@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/Materials/Ball 2-Balltex.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/CreatedAssets/Materials/Balltex.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Materials/headMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Textures/prashaTextures/headTexture.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/SceneTransition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/VineEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/VineEntity.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Level/Scenes/FountainLevel 1_Profiles.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/FountainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/FountainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Meshes/Streetlight.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Meshes/Streetlight.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Meshes/Streetlight_holder.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Meshes/Streetlight_holder.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight_holder.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight_holder.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight_item.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight_item.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Entities/PlantEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Managers/GameController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,31 +47,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;player&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\AmyMi\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\AmyMi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\AmyMi\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
@@ -156,6 +140,8 @@
       <workItem from="1702578012731" duration="1156000" />
       <workItem from="1702579197103" duration="5220000" />
       <workItem from="1702749153443" duration="1109000" />
+      <workItem from="1702833547970" duration="319000" />
+      <workItem from="1702834262571" duration="1595000" />
     </task>
     <servers />
   </component>

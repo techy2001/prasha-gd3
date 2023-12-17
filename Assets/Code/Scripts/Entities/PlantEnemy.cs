@@ -5,11 +5,12 @@ using UnityEngine;
 namespace Code.Scripts.Entities {
 	[RequireComponent(typeof(Collider))]
 	public class PlantEnemy : MonoBehaviour {
+		public static int FIRE_COOLDOWN = 80;
 		private GameController gameController;
 		[SerializeField] public AudioClip deathSound;
-		[SerializeField] private const int FIRE_COOLDOWN = 80;
 		[SerializeField] private int fireCooldown;
 		[SerializeField] private GameObject BulletPrefab;
+		[SerializeField] private VineEntity connectedVine;
 
 		private void Awake() {
 			this.gameController = FindObjectOfType<GameController>();
@@ -48,6 +49,7 @@ namespace Code.Scripts.Entities {
 		}
 
 		private void discard() {
+			if (this.connectedVine != null) this.connectedVine.destroyVine();
 			Destroy(this.gameObject);
 		}
 	}
