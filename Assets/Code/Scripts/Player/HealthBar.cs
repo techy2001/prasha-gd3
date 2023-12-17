@@ -6,11 +6,11 @@ namespace Code.Scripts.Player {
         public Slider healthSlider;
 
         public void SetSlider(float amount) {
-            this.healthSlider.value = amount;
+            if (this.healthSlider != null) this.healthSlider.value = amount;
         }
 
         public void SetSliderMax(float amount) {
-            this.healthSlider.maxValue = amount;
+            if (this.healthSlider != null) this.healthSlider.maxValue = amount;
             this.SetSlider(amount);
         }
     }

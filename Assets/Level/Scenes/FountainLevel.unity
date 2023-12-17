@@ -2545,7 +2545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189580631}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09422878, y: 0.79823, z: -0.12953489, w: 0.5806639}
+  m_LocalRotation: {x: 0.093498, y: 0.8014865, z: -0.13006335, w: 0.5761607}
   m_LocalPosition: {x: -5.5555115, y: 2, z: 2.266327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8633,7 +8633,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591159544}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09422878, y: 0.79823, z: -0.12953489, w: 0.5806639}
+  m_LocalRotation: {x: 0.093498, y: 0.8014865, z: -0.13006335, w: 0.5761607}
   m_LocalPosition: {x: 36.56448, y: 9.224842, z: -2.753668}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9871,14 +9871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73ce3a0829c5b64280ad0584a1a37ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeedGround: 16
-  maxSpeedAir: 4
-  velocityPreservationGround: 0.1
-  velocityPreservationAir: 0.98
-  accelerationGround: 480
-  accelerationAir: 20
-  weight: 0.12
-  jumpPower: 20
+  playerData: {fileID: 11400000, guid: beb3b023ba30008499a388993d160086, type: 2}
+  soundData: {fileID: 11400000, guid: 0ec958219ea2db742adc37de5621bb8b, type: 2}
   virtualCamera: {fileID: 189580632}
   cameraTarget: {fileID: 662124300}
   AnimationController: {fileID: 662124306}
