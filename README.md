@@ -21,5 +21,6 @@ We are Black Cat Studios and Prasha is our game that we are producing as a part 
 ### Third Party Assets
 
 - Audio/Sound/heal.ogg is an edited version of https://www.epidemicsound.com/track/Se0cCn1oqH/
+- Shaders are slightly edited from https://github.com/rabiaoutanarhrite/ToonShaderFile
 
 <img src="https://media.discordapp.net/stickers/1177392903769833572.webp"><br>
