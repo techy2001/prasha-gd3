@@ -38,7 +38,7 @@ namespace Code.Scripts.Entities {
 				var player = this.gameController.player;
 				if (player.velocity.y < 0) {
 					player.velocity.y = -player.velocity.y;
-					AudioSource.PlayClipAtPoint(this.deathSound, player.transform.position);
+					AudioHelper.PlayNullableClip(this.deathSound, player.transform.position);
 					this.discard();
 				} else {
 					player.playerHealth.TakeDamage(1);

@@ -2,16 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using Code.Scripts.Player;
 using Code.Scripts.Util;
+using Code.Scripts.Managers;
 using UnityEngine;
 
 namespace Code.Scripts.Player {
+	[RequireComponent(typeof(PlayerController))]
 	public class PlayerHealth : MonoBehaviour {
+		private GameController gameController;
+		private PlayerController playerController;
 		[SerializeField] private float maxHealth;
 		[SerializeField] private float currentHealth;
 		public HealthBar healthBar;
 		public Animator anim;
 
-		private void Start() {
+		private void Awake() {
+			this.playerController = this.GetComponent<PlayerController>();
+			this.gameController = FindObjectOfType<GameController>();
 			this.currentHealth = this.maxHealth;
 			if (this.healthBar != null) this.healthBar.SetSliderMax(this.maxHealth);
 		}
@@ -25,6 +31,7 @@ namespace Code.Scripts.Player {
 				//anim.SetBool("isDead", true);
 				//game over screen
 			}
+			AudioHelper.PlayNullableClip(playerController.soundData.damaged(), this.transform.position);
 		}
 
 		public void Heal(float amount) {

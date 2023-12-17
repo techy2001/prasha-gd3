@@ -1,19 +1,15 @@
 using Cinemachine;
+using Code.Scripts.Data;
 using Code.Scripts.Managers;
+using Code.Scripts.Util;
 using UnityEngine;
 
 namespace Code.Scripts.Player {
 	[RequireComponent(typeof(CharacterController))]
 	public class PlayerController : MonoBehaviour {
 		private GameController gameController;
-		[SerializeField] [Range(0f, 100f)] private float maxSpeedGround = 16f;
-		[SerializeField] [Range(0f, 100f)] private float maxSpeedAir = 4f;
-		[SerializeField] [Range(0f, 1f)] private float velocityPreservationGround = 0.1f;
-		[SerializeField] [Range(0f, 1f)] private float velocityPreservationAir = 0.98f;
-		[SerializeField] [Range(0f, 1280f)] private float accelerationGround = 480f;
-		[SerializeField] [Range(0f, 1280f)] private float accelerationAir = 20f;
-		[SerializeField] [Range(0f, 10f)] private float weight = 0.12f;
-		[SerializeField] [Range(0f, 64f)] private float jumpPower = 20f;
+		[SerializeField] public PlayerData playerData;
+		[SerializeField] public PlayerSoundData soundData;
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
 		[SerializeField] private GameObject cameraTarget;
 		[SerializeField] private AnimationController AnimationController;
@@ -24,6 +20,7 @@ namespace Code.Scripts.Player {
 		private bool jumpHeld;
 		private bool wasJumpHeld;
 		private bool isGrounded;
+		private int stepSoundCooldown = 6;
 
 		private void Awake() {
 			this.characterController = this.GetComponent<CharacterController>();
@@ -40,26 +37,35 @@ namespace Code.Scripts.Player {
 		}
 
 		private void FixedUpdate() {
-			var grounded = this.characterController.isGrounded;
+			if (!this.isGrounded && this.isGrounded != this.characterController.isGrounded) {
+				AudioHelper.PlayNullableClip(this.soundData.landing(), this.transform.position);
+			}
 			
-			this.velocity.x *= grounded ? this.velocityPreservationGround : this.velocityPreservationAir;
-			if (!grounded) {
-				this.velocity.y += this.weight * Physics.gravity.y;
+			this.isGrounded = this.characterController.isGrounded;
+			
+			this.velocity.x *= this.isGrounded ? this.playerData.velocityPreservationGround : this.playerData.velocityPreservationAir;
+			if (!this.isGrounded) {
+				this.velocity.y += this.playerData.weight * Physics.gravity.y;
 			}
-			this.velocity.z *= grounded ? this.velocityPreservationGround : this.velocityPreservationAir;
+			this.velocity.z *= this.isGrounded ? this.playerData.velocityPreservationGround : this.playerData.velocityPreservationAir;
 
-			var desiredVelocity = this.inputDirection * (grounded ? this.maxSpeedGround : this.maxSpeedAir);
+			var desiredVelocity = this.inputDirection * (this.isGrounded ? this.playerData.maxSpeedGround : this.playerData.maxSpeedAir);
 
-			this.velocity.x = Mathf.MoveTowards(this.velocity.x, grounded ? desiredVelocity.x : this.velocity.x + desiredVelocity.x, (grounded ? this.accelerationGround : this.accelerationAir) * Time.deltaTime);
-			if (this.jumpHeld && !this.wasJumpHeld && grounded) {
-				this.velocity.y = this.jumpPower;
+			this.velocity.x = Mathf.MoveTowards(this.velocity.x, this.isGrounded ? desiredVelocity.x : this.velocity.x + desiredVelocity.x, (this.isGrounded ? this.playerData.accelerationGround : this.playerData.accelerationAir) * Time.deltaTime);
+			if (this.jumpHeld && !this.wasJumpHeld && this.isGrounded) {
+				this.velocity.y = this.playerData.jumpPower;
+				AudioHelper.PlayNullableClip(this.soundData.jump(), this.transform.position);
 			}
-			this.velocity.z = Mathf.MoveTowards(this.velocity.z, grounded ? desiredVelocity.z : this.velocity.z + desiredVelocity.z, (grounded ? this.accelerationGround : this.accelerationAir) * Time.deltaTime);
+			this.velocity.z = Mathf.MoveTowards(this.velocity.z, this.isGrounded ? desiredVelocity.z : this.velocity.z + desiredVelocity.z, (this.isGrounded ? this.playerData.accelerationGround : this.playerData.accelerationAir) * Time.deltaTime);
 
 			this.characterController.Move(this.velocity * Time.deltaTime);
-			if (Physics.Raycast(new Ray(this.transform.position, Vector3.down), out var groundPoint, 1.2f) && grounded) {
+			if (Physics.Raycast(new Ray(this.transform.position, Vector3.down), out var groundPoint, 1.2f) && this.isGrounded) {
 				this.characterController.Move(groundPoint.point - this.transform.position + Vector3.up * 1.0f);
 				this.velocity.y = 0;
+				if (this.velocity.magnitude > 0.1 && this.stepSoundCooldown-- <= 0) {
+					AudioHelper.PlayNullableClip(this.soundData.walk(), this.transform.position);
+					this.stepSoundCooldown = 6;
+				}
 			}
 			
 			var flatVelocity = this.velocity;
@@ -70,9 +76,10 @@ namespace Code.Scripts.Player {
 			}
 
 			this.wasJumpHeld = this.jumpHeld;
-
+			
+			if (this.AnimationController == null) return;
 			this.AnimationController.SetVelocity(this.velocity);
-			this.AnimationController.SetGrounded(grounded);
+			this.AnimationController.SetGrounded(this.isGrounded);
 			this.AnimationController.SetJumpHeld(this.jumpHeld);
 			this.AnimationController.SetWasJumpHeld(this.wasJumpHeld);
 		}

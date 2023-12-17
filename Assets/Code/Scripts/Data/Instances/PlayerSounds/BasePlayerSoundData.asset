@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e312b130a4746309071675221dbcc22, type: 3}
+  m_Name: BasePlayerSoundData
+  m_EditorClassIdentifier: 
+  jumpSounds:
+  - {fileID: 8300000, guid: 1420e4df99872f743903daae2c467a57, type: 3}
+  walkSounds:
+  - {fileID: 8300000, guid: 35c8026fbb199354a9a661e0cb7d68c4, type: 3}
+  - {fileID: 8300000, guid: 946da3e03e0d0484dba37189f6be617c, type: 3}
+  stompSounds:
+  - {fileID: 8300000, guid: 297de5a99f05fd24aab1b96b678959f0, type: 3}
+  - {fileID: 8300000, guid: 2e96b2825f12ef4439315b51a5384f31, type: 3}
+  landingSounds:
+  - {fileID: 8300000, guid: 620c620f45dbab744a1ff6c8aa7f9f97, type: 3}
+  damagedSounds:
+  - {fileID: 8300000, guid: bbbbb34241cbaa143abc9ee939f3b9c8, type: 3}
