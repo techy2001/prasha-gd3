@@ -1,9 +1,11 @@
 using Cinemachine;
+using Code.Scripts.Managers;
 using UnityEngine;
 
-namespace Code.Scripts {
+namespace Code.Scripts.Player {
 	[RequireComponent(typeof(CharacterController))]
 	public class PlayerController : MonoBehaviour {
+		private GameController gameController;
 		[SerializeField] [Range(0f, 100f)] private float maxSpeedGround = 16f;
 		[SerializeField] [Range(0f, 100f)] private float maxSpeedAir = 4f;
 		[SerializeField] [Range(0f, 1f)] private float velocityPreservationGround = 0.1f;
@@ -15,15 +17,19 @@ namespace Code.Scripts {
 		[SerializeField] private CinemachineVirtualCamera virtualCamera;
 		[SerializeField] private GameObject cameraTarget;
 		[SerializeField] private AnimationController AnimationController;
-		private CharacterController characterController;
+		private CharacterController characterController { get; set; }
+		public PlayerHealth playerHealth { get; private set; }
+		public Vector3 velocity;
 		private Vector3 inputDirection;
-		private Vector3 velocity;
 		private bool jumpHeld;
 		private bool wasJumpHeld;
 		private bool isGrounded;
 
 		private void Awake() {
 			this.characterController = this.GetComponent<CharacterController>();
+			this.playerHealth = this.GetComponent<PlayerHealth>();
+			this.gameController = FindObjectOfType<GameController>();
+			this.gameController.player = this;
 		}
 
 		private void Update() {
@@ -51,13 +57,11 @@ namespace Code.Scripts {
 			this.velocity.z = Mathf.MoveTowards(this.velocity.z, grounded ? desiredVelocity.z : this.velocity.z + desiredVelocity.z, (grounded ? this.accelerationGround : this.accelerationAir) * Time.deltaTime);
 
 			this.characterController.Move(this.velocity * Time.deltaTime);
-			if (Physics.Raycast(new Ray(this.transform.localPosition, Vector3.down), out var groundPoint, 1.2f) && this.velocity.y < 0) {
-				this.characterController.Move(groundPoint.point - this.transform.localPosition + Vector3.up * 1.0f);
+			if (Physics.Raycast(new Ray(this.transform.position, Vector3.down), out var groundPoint, 1.2f) && grounded) {
+				this.characterController.Move(groundPoint.point - this.transform.position + Vector3.up * 1.0f);
+				this.velocity.y = 0;
 			}
 			
-			this.virtualCamera.transform.localPosition = Vector3.Lerp(this.virtualCamera.transform.localPosition, this.cameraTarget.transform.localPosition, 0.1f);
-			this.virtualCamera.transform.localRotation = Quaternion.Lerp(this.virtualCamera.transform.localRotation, this.cameraTarget.transform.localRotation, 0.1f);
-
 			var flatVelocity = this.velocity;
 			flatVelocity.y = 0;
 			if (flatVelocity.magnitude > 0.1f) {
@@ -66,11 +70,11 @@ namespace Code.Scripts {
 			}
 
 			this.wasJumpHeld = this.jumpHeld;
-			
-			AnimationController.SetVelocity(this.velocity);
-			AnimationController.SetGrounded(grounded);
-			AnimationController.SetJumpHeld(this.jumpHeld);
-			AnimationController.SetWasJumpHeld(this.wasJumpHeld);
+
+			this.AnimationController.SetVelocity(this.velocity);
+			this.AnimationController.SetGrounded(grounded);
+			this.AnimationController.SetJumpHeld(this.jumpHeld);
+			this.AnimationController.SetWasJumpHeld(this.wasJumpHeld);
 		}
 	}
 }
