@@ -115,6 +115,8 @@ namespace Code.Scripts.MenuScripts
             isMenuVisible = false;
         }
 
+       
+
         /// <summary>
         /// Pauses the game by setting the time scale to 0.
         /// </summary>
