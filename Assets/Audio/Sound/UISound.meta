@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Audio/Sound/UISound.meta
 guid: cca3edc96eb41a1459f335208a877439
 folderAsset: yes
 DefaultImporter:
+========
+guid: d4d1deb0d02bb3149969955bd05d3f87
+PrefabImporter:
+>>>>>>>> Stashed changes:Assets/Art/CreatedAssets/Sphere.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
