@@ -118,8 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e26a649b7cb41529179fd8ebf454680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupType: PlantBullet
-  pickupSound: {fileID: 8300000, guid: e35026153a62a0341857c83cff1c1edf, type: 3}
+  pickupData: {fileID: 11400000, guid: aab111409b27191449044195914703c2, type: 2}
   xVel: 0
   yVel: 0
   zVel: 0

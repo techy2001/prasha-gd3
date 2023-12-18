@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Code.Scripts.Data;
 using Code.Scripts.Managers;
 using Code.Scripts.Util;
 using UnityEngine;
@@ -7,8 +7,7 @@ namespace Code.Scripts.Entities {
 	[RequireComponent(typeof(Collider))]
 	public class PlantBulletEntity : MonoBehaviour {
 		private GameController gameController;
-		[SerializeField] private string pickupType = "PlantBullet";
-		[SerializeField] public AudioClip pickupSound;
+		[SerializeField] private PickupData pickupData;
 		[SerializeField] private float xVel;
 		[SerializeField] private float yVel;
 		[SerializeField] private float zVel;
@@ -31,8 +30,8 @@ namespace Code.Scripts.Entities {
 
 		private void OnTriggerEnter(Collider other) {
 			if (other.gameObject == this.gameController.player.gameObject) {
-				this.gameController.pickupGainedEvent.Raise(this.gameController.player, this.pickupType);
-				AudioHelper.PlayNullableClip(this.pickupSound, other.gameObject.transform.position);
+				this.gameController.pickupGainedEvent.Raise(this.gameController.player, this.pickupData.pickupType);
+				AudioHelper.PlayNullableClip(this.pickupData.pickupSound, other.gameObject.transform.position);
 				this.discard();
 			} else {
 				this.discard();
