@@ -38,7 +38,7 @@ public class BugEnemy : MonoBehaviour {
             }
             else
             {
-                player.playerHealth.TakeDamage(1);
+                player.playerHealth.TakeDamage(damage);
                 this.gameController.player.velocity *= -1;
                 this.gameController.player.velocity.y = 10;
             }
