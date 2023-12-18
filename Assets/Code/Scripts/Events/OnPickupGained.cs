@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Code.Scripts.Player;
-using UnityEngine;
+
 
 namespace Code.Scripts.Events {
-	public class OnPickupGained : ScriptableObject {
+	public class OnPickupGained {
 		private readonly List<PickupGainedListener> listeners = new List<PickupGainedListener>();
 
 		public void Raise(PlayerController player, string type) {

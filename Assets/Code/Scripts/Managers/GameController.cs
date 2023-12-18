@@ -5,10 +5,9 @@ using UnityEngine;
 namespace Code.Scripts.Managers {
 	public class GameController : MonoBehaviour {
 		public PlayerController player;
-		public OnPickupGained pickupGainedEvent { get; private set; }
+		public readonly OnPickupGained pickupGainedEvent = new OnPickupGained();
 		
 		private void Awake() {
-			this.pickupGainedEvent = ScriptableObject.CreateInstance<OnPickupGained>();
 			this.pickupGainedEvent.RegisterListener(static (controller, type) => {
 				switch (type) {
 					case "Heal":

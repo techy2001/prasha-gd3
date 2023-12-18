@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a3e017-e5f2-4984-8260-55a58cd808ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Player 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Player 1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prasha/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Player.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +140,7 @@
       <workItem from="1702579197103" duration="5220000" />
       <workItem from="1702749153443" duration="1109000" />
       <workItem from="1702833547970" duration="319000" />
-      <workItem from="1702834262571" duration="12818000" />
+      <workItem from="1702834262571" duration="13416000" />
     </task>
     <servers />
   </component>
