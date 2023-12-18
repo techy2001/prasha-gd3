@@ -1,5 +1,4 @@
 using System;
-using UnityEngine;
 
 namespace Code.Scripts.Util {
 	public interface MathHelper {
@@ -64,13 +63,6 @@ namespace Code.Scripts.Util {
 				return max - (min - value) % (max - min);
 			}
 			return min + (value - min) % (max - min);
-		}
-
-		public static double distanceTo(Vector3 vec1, Vector3 vec2) {
-			double x = vec1.x - vec2.x;
-			double y = vec1.y - vec2.y;
-			double z = vec1.z - vec2.z;
-			return Math.Sqrt(x * x + y * y + z * z);
 		}
 
 		public static bool getByteFlag(byte data, int flag) {
