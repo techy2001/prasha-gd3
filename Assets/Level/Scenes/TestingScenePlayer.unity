@@ -414,6 +414,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6249588792150567401, guid: e2c284a26d6e7cd418d73fc3c5279815,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.925561
+      objectReference: {fileID: 0}
+    - target: {fileID: 6249588792150567401, guid: e2c284a26d6e7cd418d73fc3c5279815,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6168352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6249588792150567401, guid: e2c284a26d6e7cd418d73fc3c5279815,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.100098565
+      objectReference: {fileID: 0}
+    - target: {fileID: 6249588792150567401, guid: e2c284a26d6e7cd418d73fc3c5279815,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7706205
+      objectReference: {fileID: 0}
+    - target: {fileID: 6249588792150567401, guid: e2c284a26d6e7cd418d73fc3c5279815,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.12505452
+      objectReference: {fileID: 0}
     - target: {fileID: 8865058882624397463, guid: e2c284a26d6e7cd418d73fc3c5279815,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -888,8 +913,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791618163}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.159686, y: 0.077638485, z: -0.01259899, w: 0.9840295}
-  m_LocalPosition: {x: -11.268375, y: 3, z: -6.4588537}
+  m_LocalRotation: {x: 0.100098565, y: -0.7706205, z: 0.12505452, w: 0.6168352}
+  m_LocalPosition: {x: -4.030163, y: 3, z: 0.33799195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1031,6 +1056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  music: {fileID: 11400000, guid: 1e61d8f6adf6c7a4aa8cf99c684f73b0, type: 2}
 --- !u!4 &2077841220
 Transform:
   m_ObjectHideFlags: 0
