@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0dc7d500fc43b193c9fe2547527d02, type: 3}
   m_Name: MusicData
   m_EditorClassIdentifier: 
-  introduction: {fileID: 0}
-  musicSegments: []
+  introduction: {fileID: 8300000, guid: 1b8258fc9714ba248b38adbf6078030b, type: 3}
+  musicSegments:
+  - {fileID: 8300000, guid: 23238a1bede6246498ed972a75e6071b, type: 3}
+  - {fileID: 8300000, guid: 4ed77c8455507dd419a5d86692dcac10, type: 3}
+  - {fileID: 8300000, guid: 8c71ddddca79eb345b7d46c28ec48554, type: 3}
