@@ -19,7 +19,7 @@ namespace Dialog
         
             [SerializeField]
             [FormerlySerializedAs("Alphabet")] [Tooltip("Character alphabet audio")] 
-            public Dialog.AlphabetScrObj.Alphabet charAlphabet;
+            public AlphabetScrObj.Alphabet charAlphabet;
             
         
             [FormerlySerializedAs("showPitch")]
