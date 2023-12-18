@@ -4,7 +4,9 @@
 
 We are Black Cat Studios and Prasha is our game that we are producing as a part of Universal Design Principals, 3D Game Engine Development and Sound Technology.
 
+**GitHub:** https://github.com/techy2001/prasha-gd3
 **Mahara:** https://mahara.dkit.ie/view/view.php?t=cGKFjpi53Zqe0TS27mbn
+**Scrumwise:** https://www.scrumwise.com/scrum/#/sprints/project/l8-gd3-2023-24-witch-game/id-31429-91560-64
 
 ### Run Instructions
 
@@ -20,12 +22,12 @@ We are Black Cat Studios and Prasha is our game that we are producing as a part 
 - Pick up Orb rewarded for cleaning the fountain to win
 - Lose by running out of health from enemy attacks
 
+<img src="https://media.discordapp.net/stickers/1177392903769833572.webp"><br>
+
 ### Third Party Assets
 
 - Audio/Sound/heal.ogg is an edited version of https://www.epidemicsound.com/track/Se0cCn1oqH/
 - Shaders are slightly edited from https://github.com/rabiaoutanarhrite/ToonShaderFile
-
-<img src="https://media.discordapp.net/stickers/1177392903769833572.webp"><br>
 
 #### Environment
 - Asset 	Source 	Link
