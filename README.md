@@ -26,3 +26,23 @@ We are Black Cat Studios and Prasha is our game that we are producing as a part 
 - Shaders are slightly edited from https://github.com/rabiaoutanarhrite/ToonShaderFile
 
 <img src="https://media.discordapp.net/stickers/1177392903769833572.webp"><br>
+
+## Environment
+-Asset 	Source 	Link
+-Castle / Courtyard Walls 	 Turbosquid 	 https://www.turbosquid.com/3d-models/3d-low-poly-modular-castle-asset-for-free-model-1798495 
+-Area Cliff Blocks 	 Sketchfab 	 https://sketchfab.com/3d-models/castle-d9e2a603c73a492b8a5619ba1f790e06  
+-Castle 	 turbosquid 	 https://www.turbosquid.com/3d-models/3d-low-poly-modular-castle-asset-for-free-model-1798495 
+-Gate 	 Turbosquid 	  https://www.turbosquid.com/3d-models/3d-low-poly-modular-castle-asset-for-free-model-1798495 
+-Trees 	 Kenney assets 	 https://www.kenney.nl/assets/nature-kit 
+-Bushes 	Unity Asset Store 	 https://assetstore.unity.com/packages/3d/environments/low-poly-park-154815
+-Hanging Moss 	Kenney Assets 	 https://www.kenney.nl/assets/nature-kit 
+-Vines 	 Unity Asset Store 	 https://assetstore.unity.com/packages/3d/environments/low-poly-alien-world-132329 
+-Flower Vines 	 Unity Asset Store 	 https://assetstore.unity.com/packages/3d/environments/low-poly-alien-world-132329 
+-Log 	 Kenney Assets 	 https://www.kenney.nl/assets/nature-kit
+-Bench 	 Unity Asset Store 	 https://assetstore.unity.com/packages/3d/environments/low-poly-park-154815
+-Gazebo 	 Unity Asset Store 	 https://assetstore.unity.com/packages/3d/environments/low-poly-park-154815
+-Flowers 	 Unity Asset Store 	https://assetstore.unity.com/packages/3d/environments/low-poly-park-154815
+                              https://assetstore.unity.com/packages/3d/environments/landscapes/free-low-poly-nature-forest-205742
+-Flower Boxes 	 Unity Asset Store 	 https://assetstore.unity.com/packages/3d/environments/low-poly-park-154815
+-Grass tufts 	 Kenney Assets 	 https://www.kenney.nl/assets/nature-kit 
+-Sky Box 	 Unity Asset Store 	https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
