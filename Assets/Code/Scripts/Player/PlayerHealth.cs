@@ -14,7 +14,7 @@ namespace Code.Scripts.Player {
 		[SerializeField] private float currentHealth;
 		public HealthBar healthBar;
 		public Animator anim;
-
+		public GameObject LoseScreen;
 		private void Awake() {
 			this.playerController = this.GetComponent<PlayerController>();
 			this.gameController = FindObjectOfType<GameController>();
@@ -30,6 +30,7 @@ namespace Code.Scripts.Player {
 				//play death animation
 				//anim.SetBool("isDead", true);
 				//game over screen
+				LoseScreen.SetActive(true);
 			}
 			AudioHelper.PlayNullableClip(playerController.soundData.damaged(), this.transform.position);
 		}
