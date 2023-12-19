@@ -52,7 +52,15 @@ We are Black Cat Studios and Prasha is our game that we are producing as a part 
 #### Lighting
 - Asset Source Link
 - Lamp Posts https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-forest-village-123484
+  
+#### UI Sounds
+  Source: Freesound.org
 
-  #### UI Sounds
-  -
-  -
+- Win Sound:
+
+                https://freesound.org/people/InspectorJ/sounds/413749/
+
+- Button Click:
+
+                https://freesound.org/people/Vilkas_Sound/sounds/707038/
+
